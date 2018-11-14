@@ -1,0 +1,18 @@
+{
+  "name": "circleci",
+  "version": "1.0.0",
+  "description": "all about testingggg",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "testing",
+    "test"
+  ],
+  "author": "Natejohnson",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
