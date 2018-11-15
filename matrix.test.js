@@ -1,6 +1,6 @@
 const Matrix = require('./matrix');
 
-test('adding scalar to matrix', function() {
+test('adding scalar to matrix', () => {
     var a = new Matrix(3, 3);
     a.data[0] = [1, 2, 3];
     a.data[1] = [4, 5, 6];
