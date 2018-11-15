@@ -5,7 +5,11 @@ function sum(a, b) {
 function prod(a,b) {
     return a * b;
 }
-  module.exports = {
-      sum: sum,
-      prod: prod
-  };
+
+if (typeof module !== "undefined") {
+    module.exports = {
+        sum: sum,
+        prod: prod
+    };
+
+}
