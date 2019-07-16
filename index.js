@@ -1,3 +1,4 @@
-console.log(sumTwoNumbers(3, 1));
+const prod = require('./sketch');
+console.log(prod(3, 5));
 
 console.log('Hello world!');
